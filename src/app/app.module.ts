@@ -19,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
+import { CollectionComponent } from './Components/collection/collection.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { DashboardComponent } from './Components/dashboard/dashboard.component';
     HeaderComponent,
     FooterComponent,
     DashboardComponent,
+    CollectionComponent,
   ],
   imports: [
     BrowserModule,
